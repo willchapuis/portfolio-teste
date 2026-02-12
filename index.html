@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfólio - William Chapuis Marciano" />
+    <title>William Chapuis • Portfólio</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para conteúdo</a>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#home" aria-label="Ir para o início">
+          <span class="logo__dot"></span> william<span class="muted">.dev</span>
+        </a>
+
+        <nav class="nav" aria-label="Navegação principal">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="header__actions">
+          <button id="themeToggle" class="btn btn--ghost" type="button" aria-label="Alternar tema">
+            <span id="themeIcon" aria-hidden="true">☾</span>
+          </button>
+          <a class="btn btn--primary" href="#contato">Fale comigo</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <!-- HERO -->
+      <section id="home" class="section hero">
+        <div class="container hero__grid">
+          <div class="hero__content">
+            <p class="kicker">Desenvolvedor • Front | Back | Full Stack</p>
+            <h1>
+              Eu sou <span class="gradient">William Chapuis</span>.
+              Construo soluções web com foco em clareza, performance e manutenção.
+            </h1>
+
+            <p class="lead">
+              Hoje atuo com <strong>.NET (C#)</strong> e boas práticas de versionamento, code review e trabalho em equipe.
+              Estou fortalecendo meu lado <strong>Frontend</strong> para ter uma base sólida como <strong>Full Stack</strong>.
+            </p>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+              <a class="btn btn--ghost" href="https://github.com/willchapuis" target="_blank" rel="noreferrer">GitHub</a>
+              <a class="btn btn--ghost" href="https://www.linkedin.com/in/will-chapuis/" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+
+            <div class="hero__chips" aria-label="Destaques">
+              <span class="chip">.NET / C#</span>
+              <span class="chip">Git & GitFlow</span>
+              <span class="chip">APIs</span>
+              <span class="chip">HTML • CSS • JS</span>
+              <span class="chip">Java • Python</span>
+            </div>
+          </div>
+
+          <aside class="hero__card" aria-label="Resumo rápido">
+            <div class="card">
+              <div class="card__header">
+                <p class="card__title">Resumo</p>
+                <p class="card__subtitle">Versão rápida para recrutadores</p>
+              </div>
+
+              <div class="card__body">
+                <ul class="list">
+                  <li><strong>Atuação:</strong> Full Stack (.NET) + evolução em Frontend</li>
+                  <li><strong>Foco:</strong> código limpo, versionamento, colaboração</li>
+                  <li><strong>Local:</strong> Brasil</li>
+                </ul>
+
+                <div class="divider"></div>
+
+                <p class="muted small">
+                  *Seu LinkedIn e GitHub estão desatualizados, então este portfólio foi pensado pra você ir
+                  ajustando com o tempo, sem reescrever o site inteiro.
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- SOBRE -->
+      <section id="sobre" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Sobre</h2>
+            <p class="muted">
+              Perfil “meio-termo”: entrego no back, sei me virar no front e organizo projetos com cuidado.
+            </p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <div class="card__body">
+                <h3>Quem sou</h3>
+                <p>
+                  Sou desenvolvedor e atuo com <strong>Full Stack .NET (C#)</strong>, com boa vivência de
+                  <strong>Git, code review</strong> e controle de versões em projetos simultâneos :contentReference[oaicite:3]{index=3}.
+                  Também tenho projetos acadêmicos e pessoais em <strong>Java</strong> e <strong>Python</strong>. :contentReference[oaicite:4]{index=4}
+                </p>
+                <p>
+                  No momento, estou consolidando fundamentos e prática de <strong>Frontend</strong> para ter mais autonomia
+                  na construção de interfaces responsivas e modernas (e deixar meu portfólio cada vez mais forte). :contentReference[oaicite:5]{index=5}
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__body">
+                <h3>Como eu trabalho</h3>
+                <ul class="list">
+                  <li>Organização e legibilidade: nomes, estrutura, consistência.</li>
+                  <li>Colaboração: PRs, review e evolução incremental.</li>
+                  <li>Entrega pragmática: solução simples primeiro, melhoria depois.</li>
+                  <li>Aprendizado contínuo com projetos e trilhas práticas. :contentReference[oaicite:6]{index=6}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>Skills</h2>
+            <p class="muted">O objetivo aqui é mostrar amplitude sem fingir especialização onde não existe.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <div class="card__body">
+                <h3>Backend</h3>
+                <div class="badges">
+                  <span class="badge">.NET / C#</span>
+                  <span class="badge">APIs REST</span>
+                  <span class="badge">Boas práticas</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__body">
+                <h3>Frontend</h3>
+                <div class="badges">
+                  <span class="badge">HTML</span>
+                  <span class="badge">CSS</span>
+                  <span class="badge">JavaScript</span>
+                  <span class="badge">Responsividade</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__body">
+                <h3>Ferramentas</h3>
+                <div class="badges">
+                  <span class="badge">Git</span>
+                  <span class="badge">GitFlow</span>
+                  <span class="badge">Code Review</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJETOS -->
+      <section id="projetos" class="section">
+        <div class="container">
+          <div class="section__head section__head--row">
+            <div>
+              <h2>Projetos</h2>
+              <p class="muted">Seleção inicial (você pode trocar/expandir depois).</p>
+            </div>
+
+            <div class="filters" role="tablist" aria-label="Filtros de projetos">
+              <button class="filter is-active" data-filter="all" role="tab">Todos</button>
+              <button class="filter" data-filter="frontend" role="tab">Front</button>
+              <button class="filter" data-filter="backend" role="tab">Back</button>
+              <button class="filter" data-filter="fullstack" role="tab">Full Stack</button>
+            </div>
+          </div>
+
+          <div id="projectsGrid" class="projects" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section--alt">
+        <div class="container">
+          <div class="section__head">
+            <h2>FAQ</h2>
+            <p class="muted">Perguntas rápidas que ajudam a “vender” seu perfil com honestidade.</p>
+          </div>
+
+          <div class="grid-2">
+            <details class="faq card">
+              <summary>Você é mais front, back ou full stack?</summary>
+              <div class="card__body">
+                Hoje meu core é <strong>Full Stack com .NET</strong>, mas eu mantenho um meio-termo:
+                evoluo no Frontend e consigo transitar entre camadas quando necessário. :contentReference[oaicite:7]{index=7}
+              </div>
+            </details>
+
+            <details class="faq card">
+              <summary>Como você organiza seus estudos?</summary>
+              <div class="card__body">
+                Eu gosto de trilhas práticas e progressivas (fundamentos → pequenas entregas → projetos maiores),
+                como a minha trilha de aprendizado web. :contentReference[oaicite:8]{index=8}
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTATO -->
+      <section id="contato" class="section">
+        <div class="container">
+          <div class="section__head">
+            <h2>Contato</h2>
+            <p class="muted">Se quiser conversar sobre oportunidades, freelas ou projetos, só chamar.</p>
+          </div>
+
+          <div class="grid-2">
+            <div class="card">
+              <div class="card__body">
+                <h3>Links</h3>
+                <div class="stack">
+                  <a class="link" href="https://github.com/willchapuis" target="_blank" rel="noreferrer">GitHub</a>
+                  <a class="link" href="https://www.linkedin.com/in/will-chapuis/" target="_blank" rel="noreferrer">LinkedIn</a>
+                </div>
+
+                <div class="divider"></div>
+
+                <p class="muted small">
+                  Dica: quando você atualizar LinkedIn/GitHub, volte aqui e ajuste o texto do “Sobre” e os projetos.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card__body">
+                <h3>Mensagem rápida</h3>
+                <form id="contactForm">
+                  <label class="field">
+                    <span>Seu nome</span>
+                    <input required name="name" placeholder="Ex.: Ana" />
+                  </label>
+
+                  <label class="field">
+                    <span>Sua mensagem</span>
+                    <textarea required name="message" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+                  </label>
+
+                  <button class="btn btn--primary" type="submit">Copiar mensagem</button>
+                  <p class="muted small" id="formHint">
+                    (Isso copia o texto — você cola no LinkedIn/WhatsApp/email. GitHub Pages não precisa backend.)
+                  </p>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <footer class="footer">
+            <p class="muted small">© <span id="year"></span> • William Chapuis • Hospedado no GitHub Pages</p>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
